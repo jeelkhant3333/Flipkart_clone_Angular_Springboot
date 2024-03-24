@@ -4,6 +4,7 @@ import { MatIconModule } from '@angular/material/icon'
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { CommonModule } from '@angular/common';
+import {MatDividerModule} from '@angular/material/divider';
 
 @Component({
     selector: 'app-navbar',
@@ -16,7 +17,8 @@ import { CommonModule } from '@angular/common';
         MatButtonModule,
         MatMenuModule,
         CommonModule,
-        NavContentComponent]
+        NavContentComponent,
+        MatDividerModule]
 })
 export class NavbarComponent {
     profileMenu: any;

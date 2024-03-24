@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HomeComponent } from "./home/home.component";
-import { NavbarComponent } from "./navbar/navbar.component";
-import { FooterComponent } from "./footer/footer.component";
-
+import { HomeComponent } from './module/feature/components/home/home.component';
+import { FooterComponent } from './module/share/components/footer/footer.component';
+import { NavbarComponent } from './module/share/components/navbar/navbar.component';
+import { ProductsComponent } from "./module/feature/components/products/products.component";
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [RouterOutlet, HomeComponent, NavbarComponent, FooterComponent]
+    imports: [RouterOutlet, HomeComponent, NavbarComponent, FooterComponent, ProductsComponent]
 })
 export class AppComponent {
   title = 'eccomerce-angular';
