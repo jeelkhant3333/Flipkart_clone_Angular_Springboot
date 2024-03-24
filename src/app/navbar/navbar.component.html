@@ -1,4 +1,4 @@
-<div class="fixed top-0 z-50 right-0 left-0 bg-[#2874F0] text-[#ffffff]">
+<div class="fixed top-0 z-50 right-0 left-0 text-[#000000] bg-[#ffffff]">
     <!-- bg-[#69f0ae] -->
 
     <!-- Navbar -->
@@ -19,13 +19,15 @@
             <div>
 
                 <div class="flex space-x-4 items-center">
-                    <a routerLink="/"
-                        class="hover:scale-110 cursor-pointer font-bold-00 text-lg">Home</a>
+                    <a routerLink="/" class="hover:scale-110 cursor-pointer font-bold-00 text-lg">Home</a>
                     <button
-                        class="hover:scale-110 cursor-pointer open-button font-bold-700 text-lg"
-                        (click)="openNavbarContent('men')" mat-mdc-button>Men</button>
-                    <button class="hover:scale-110 cursor-pointer open-button font-bold-700 text-lg"
+                        class="group focus:outline-none focus:scale-110 hover:text-[#2874F0] hover:scale-110 cursor-pointer font-bold-700 text-lg open-button"
+                        (click)="openNavbarContent('men')"
+                         mat-mdc-button>Men</button>
+                    <button
+                        class="group focus:outline-none focus:scale-110 hover:text-[#2874F0] hover:scale-110 cursor-pointer font-bold-700 text-lg open-button"
                         (click)="openNavbarContent('women')" mat-mdc-button>Women</button>
+
                 </div>
 
             </div>

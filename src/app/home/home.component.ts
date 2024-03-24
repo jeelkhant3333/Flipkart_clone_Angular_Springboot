@@ -5,7 +5,6 @@ import { meanJeans } from '../../Data/Men/men_jeans';
 import { gounsPage1 } from '../../Data/Gouns/gouns';
 import { mens_kurta } from '../../Data/Men/men_kurta';
 import { mensShoesPage1 } from '../../Data/shoes';
-import { womenJeans } from '../../Data/Women/women_jeans';
 import { womenTop } from '../../Data/Women/women_top';
 
 @Component({
@@ -23,10 +22,10 @@ export class HomeComponent {
     shoes: any;
 
     ngOnInit() {
-        this.menJeans = meanJeans.slice(0, 5)
-        this.womengouns = gounsPage1.slice(0, 5)
-        this.menKurtas = mens_kurta.slice(0, 5)
-        this.shoes = mensShoesPage1.slice(0, 5)
-        this.womenTop = womenTop.slice(0, 5)
+        this.menJeans = meanJeans.slice(0, 6)
+        this.womengouns = gounsPage1.slice(0,6)
+        this.menKurtas = mens_kurta.slice(0, 6)
+        this.shoes = mensShoesPage1.slice(0, 6)
+        this.womenTop = womenTop.slice(0, 6)
     }
 }

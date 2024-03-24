@@ -50,16 +50,6 @@ export const mensShoesPage1=[
         "size": ""
     },
     {
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/c/k/k/gm1251-43-good-minar-black-original-imaft34ej4zx2z63-bb.jpeg?q=70",
-        "brand": "aadi",
-        "title": "Mesh |Lightweight|Comfort|Summer|Trendy|Walking|Outdoor...",
-        "color": "",
-        "selling_price": "₹199",
-        "price": "₹999",
-        "disscount": "80% off",
-        "size": ""
-    },
-    {
         "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kuzuoi80/shoe/2/k/x/7-brd-574-brd-575-7-birde-multicolor-original-imag7zx8epryeskm.jpeg?q=70",
         "brand": "BIRDE",
         "title": "Trendy Sport Shoes For Men Pack Of 2 Running Shoes For ...",
