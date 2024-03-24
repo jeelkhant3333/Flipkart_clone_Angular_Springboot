@@ -152,36 +152,6 @@ export const dressPage1 = [
   },
   {
     "imageUrl":
-      "https://rukminim1.flixcart.com/image/612/612/kdlzte80/ethnic-set/p/f/q/l-3209-mint-02-neysa-original-imafuh85unfjczkd.jpeg?q=70",
-    "brand": "NEYSA",
-    "title": "Women Two Piece Dress Light Green Dress",
-    "color": "",
-    "discountedPrice": 827,
-    "price": 1799,
-    "discountPersent": 54,
-    "size": [
-      {
-        "name": "S",
-        "quantity": 20
-      },
-      {
-        "name": "M",
-        "quantity": 30
-      },
-      {
-        "name": "L",
-        "quantity": 50
-      }
-    ],
-    "quantity": 100,
-    "topLavelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
-    "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
-  },
-  {
-    "imageUrl":
       "https://rukminim1.flixcart.com/image/612/612/l0igvww0/dress/g/p/u/xl-wd-1001-leriya-fashion-original-imagc9zbhfhsy33w.jpeg?q=70",
     "brand": "Leriya Fashion",
     "title": "Women A-line Maroon Dress",
@@ -279,36 +249,6 @@ export const dressPage1 = [
     "discountedPrice": 719,
     "price": 1999,
     "discountPersent": 64,
-    "size": [
-      {
-        "name": "S",
-        "quantity": 20
-      },
-      {
-        "name": "M",
-        "quantity": 30
-      },
-      {
-        "name": "L",
-        "quantity": 50
-      }
-    ],
-    "quantity": 100,
-    "topLavelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
-    "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
-  },
-  {
-    "imageUrl":
-      "https://rukminim1.flixcart.com/image/612/612/xif0q/dress/9/f/g/xl-271-shivay-style-original-imafnf5ne9wqyw6n-bb.jpeg?q=70",
-    "brand": "Sheetal Associates",
-    "title": "Women Maxi Grey Dress",
-    "color": "",
-    "discountedPrice": 349,
-    "price": 1999,
-    "discountPersent": 65,
     "size": [
       {
         "name": "S",
@@ -639,36 +579,6 @@ export const dressPage1 = [
     "discountedPrice": 371,
     "price": 2699,
     "discountPersent": 86,
-    "size": [
-      {
-        "name": "S",
-        "quantity": 20
-      },
-      {
-        "name": "M",
-        "quantity": 30
-      },
-      {
-        "name": "L",
-        "quantity": 50
-      }
-    ],
-    "quantity": 100,
-    "topLavelCategory": "Women",
-    "secondLavelCategory": "Clothing",
-    "thirdLavelCategory": "Dress",
-    "description":
-      "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
-  },
-  {
-    "imageUrl":
-      "https://rukminim1.flixcart.com/image/612/612/kbs9k7k0/dress/9/f/j/xxl-drdrmsk-13-rudraaksha-original-imaftfczugs8mfnr.jpeg?q=70",
-    "brand": "Rudraaksha",
-    "title": "Women Fit and Flare Pink Dress With Mask",
-    "color": "",
-    "discountedPrice": 348,
-    "price": 1999,
-    "discountPersent": 82,
     "size": [
       {
         "name": "S",

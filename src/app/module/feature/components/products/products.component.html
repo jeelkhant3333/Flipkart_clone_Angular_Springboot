@@ -3,7 +3,7 @@
     <main class="px-4 sm:px-6 pb-10">
 
         <!-- First Row -->
-        <div class="flex items-baseline justify-between border-gray-200 pb-6 pt-24">
+        <div class="flex items-baseline justify-between border-gray-200 pt-10">
 
             <h1 class="text-4xl font-bold text-black">Products</h1>
             <div class="flex items-center">
@@ -23,11 +23,15 @@
             <div class="grid grid-cols-1 gap-8 gap-y-10 lg:grid-cols-5">
 
                 <!-- Filters -->
-                <div>
+                <div class="">
 
+                    <div class="bg-white pt-5 pl-5 pr-5">
                     <div class="flex items-center justify-between">
                         <p class="text-lg">Filters</p>
-                        <mat-icon>filter_list</mat-icon>
+                        <div>
+                            <mat-icon>filter_list</mat-icon>
+                        </div>
+                       
                     </div>
                     <!-- Form -->
                     <form class="hidden lg:block">
@@ -101,13 +105,14 @@
                     </form>
 
                 </div>
+                </div>
 
                 <!-- Products -->
                 <div class="lg:col-span-4 bg-white pt-5">
                     
                     <div class="flex flex-wrap justify-evenly">
 
-                        <ng-container *ngFor="let item of menPants">
+                        <ng-container *ngFor="let item of womenDress">
 
                             <app-product-card [product]="item"/>
 

@@ -11,6 +11,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { mensPantsPage1 } from '../../../../../Data/pants/men_page1';
 import { ProductCardComponent } from "../../../share/components/product-card/product-card.component";
 import { ActivatedRoute, Router } from '@angular/router';
+import { dressPage1 } from '../../../../../Data/dress/page1';
 
 
 @Component({
@@ -34,13 +35,13 @@ export class ProductsComponent {
   sortMenu: any;
   filterData: any;
   singleFilterData: any;
-  menPants: any;
+  womenDress: any;
 
   constructor(private router:Router ,private activeRoute: ActivatedRoute) { }
   ngOnInit() {
     this.filterData = filters;
     this.singleFilterData = singleFilter;
-    this.menPants = mensPantsPage1;
+    this.womenDress = dressPage1;
   }
 
   handleMultipleSelectFilter(value: string, sectionId: string) {

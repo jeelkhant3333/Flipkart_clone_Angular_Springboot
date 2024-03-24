@@ -21,11 +21,11 @@
                 <div class="flex space-x-4 items-center">
                     <a routerLink="/" class="hover:scale-110 cursor-pointer font-bold-00 text-lg">Home</a>
                     <button
-                        class="group focus:outline-none focus:scale-110 hover:text-[#2874F0] hover:scale-110 cursor-pointer font-bold-700 text-lg open-button"
+                        class="group focus:outline-none focus:scale-110 focus:text-[#2874F0] hover:text-[#2874F0] hover:scale-110 cursor-pointer font-bold-700 text-lg open-button"
                         (click)="openNavbarContent('men')"
                          mat-mdc-button>Men</button>
                     <button
-                        class="group focus:outline-none focus:scale-110 hover:text-[#2874F0] hover:scale-110 cursor-pointer font-bold-700 text-lg open-button"
+                        class="group focus:outline-none focus:scale-110 focus:text-[#2874F0] hover:text-[#2874F0] hover:scale-110 cursor-pointer font-bold-700 text-lg open-button"
                         (click)="openNavbarContent('women')" mat-mdc-button>Women</button>
 
                 </div>
@@ -63,7 +63,7 @@
 
     </div>
 
-    <mat-divider></mat-divider>
+    
     <!-- Navbar Content -->
     <div class="absolute right-0 left-0 modal-container" *ngIf="isNavbarContentOpen">
         <app-nav-content [selectedSection]="currentSection" />
