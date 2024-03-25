@@ -74,4 +74,5 @@ export class ProductsComponent {
     this.router.navigate([] , {queryParams});
   }
 
+ 
 }
