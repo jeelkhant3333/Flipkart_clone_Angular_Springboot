@@ -8,7 +8,6 @@ import { CommonModule } from '@angular/common';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
-import { mensPantsPage1 } from '../../../../../Data/pants/men_page1';
 import { ProductCardComponent } from "../../../share/components/product-card/product-card.component";
 import { ActivatedRoute, Router } from '@angular/router';
 import { dressPage1 } from '../../../../../Data/dress/page1';

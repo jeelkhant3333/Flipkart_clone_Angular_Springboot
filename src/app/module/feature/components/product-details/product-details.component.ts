@@ -9,6 +9,7 @@ import { dressPage1 } from '../../../../../Data/dress/page1';
 import { ProductCardComponent } from "../../../share/components/product-card/product-card.component";
 import { StarRatingComponent } from "../../../share/components/star-rating/star-rating.component";
 import {MatDividerModule} from '@angular/material/divider';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-product-details',
@@ -33,11 +34,15 @@ export class ProductDetailsComponent {
   reviews = [1,1,1];
   relatedProducts:any;
 
+  constructor(private router: Router){
+
+  }
+
   ngOnInit(){
     this.relatedProducts = dressPage1;
   }
 
   handleAddToCart() {
-    throw new Error('Method not implemented.');
+   this.router.navigate(["cart"]);
   }
 }
