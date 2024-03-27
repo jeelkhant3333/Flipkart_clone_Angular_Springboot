@@ -17,7 +17,7 @@ export class CartComponent {
 
   }
 
-cart = [1,1,1]
+cart = [1,1,1,1,1,1]
 
 navigateToChechout() {
   this.router.navigate(["checkout"]); 

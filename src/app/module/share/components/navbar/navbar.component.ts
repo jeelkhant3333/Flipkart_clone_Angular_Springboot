@@ -5,6 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { CommonModule } from '@angular/common';
 import {MatDividerModule} from '@angular/material/divider';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-navbar',
@@ -24,8 +25,12 @@ export class NavbarComponent {
     profileMenu: any;
     isNavbarContentOpen: any;
     currentSection: any;
-    navigateTo(path: any) {
 
+    constructor(private route:Router){
+
+    }
+    navigateTo(path: any) {
+        this.route.navigate([path])
     }
 
     openNavbarContent(section: any) {
