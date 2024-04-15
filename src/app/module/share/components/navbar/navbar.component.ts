@@ -53,7 +53,6 @@ export class NavbarComponent {
         if (typeof localStorage !== 'undefined' && localStorage.getItem('jwt')) {
             this.userService.getUserProfile(this.http).subscribe((response) => {
                 this.userProfile = response
-                this.cdr.reattach()
                 this.dilouge.closeAll;
             })
         }

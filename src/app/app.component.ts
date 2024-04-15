@@ -9,6 +9,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Store, select } from '@ngrx/store';
 import { AppState } from './models/AppState';
 import { UserService } from './state/user/user.service';
+import { CartService } from './state/cart/cart.service';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -21,6 +22,7 @@ export class AppComponent {
 
   constructor(
     private userService: UserService,
+    private cartService: CartService,
     private store: Store<AppState>,
     private http: HttpClient,
     private dilouge: MatDialog,
@@ -31,6 +33,7 @@ export class AppComponent {
   ngOnInit() {
     if (typeof localStorage !== 'undefined' && localStorage.getItem('jwt')) {
       this.userService.getUserProfile(this.http);
+      this.cartService.getCart().subscribe()
     }
   }
 

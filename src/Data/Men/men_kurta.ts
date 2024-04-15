@@ -4,9 +4,9 @@ export const mens_kurta=[
         "brand": "Majestic Man",
         "title": "Men Printed Pure Cotton Straight Kurta",
         "color": "Green",
-        "discountedPrice": 499,
+       "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
+        "discountedPercent": 66,
         "size": [
             {
               "name": "S",
@@ -22,9 +22,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -32,9 +32,9 @@ export const mens_kurta=[
         "brand": "SG LEMAN",
         "title": "Men Embroidered Jacquard Straight Kurta",
         "color": "Yellow",
-        "discountedPrice": 799,
+       "discountedPrice": 799,
         "price": 2499,
-        "discountPersent": 68,
+        "discountedPercent": 68,
         "size": [
             {
               "name": "S",
@@ -50,9 +50,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -60,9 +60,9 @@ export const mens_kurta=[
         "brand": "FUBAR",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Blue",
-        "discountedPrice": 399,
+       "discountedPrice": 399,
         "price": 1499,
-        "discountPersent": 73,
+        "discountedPercent": 73,
         "size": [
             {
               "name": "S",
@@ -78,9 +78,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -88,9 +88,9 @@ export const mens_kurta=[
         "brand": "ALY JOHN",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "White",
-        "discountedPrice": 474,
+       "discountedPrice": 474,
         "price": 1999,
-        "discountPersent": 76,
+        "discountedPercent": 76,
         "size": [
             {
               "name": "S",
@@ -106,9 +106,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -116,9 +116,9 @@ export const mens_kurta=[
         "brand": "PETER ENGLAND",
         "title": "Men Woven Design Pure Cotton Straight Kurta",
         "color": "Grey",
-        "discountedPrice": 524,
+       "discountedPrice": 524,
         "price": 1049,
-        "discountPersent": 50,
+        "discountedPercent": 50,
         "size": [
             {
               "name": "S",
@@ -134,9 +134,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -144,9 +144,9 @@ export const mens_kurta=[
         "brand": "Majestic Man",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Pink",
-        "discountedPrice": 499,
+       "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
+        "discountedPercent": 66,
         "size": [
             {
               "name": "S",
@@ -162,9 +162,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -172,9 +172,9 @@ export const mens_kurta=[
         "brand": "WRODSS",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Black",
-        "discountedPrice": 277,
+       "discountedPrice": 277,
         "price": 999,
-        "discountPersent": 72,
+        "discountedPercent": 72,
         "size": [
             {
               "name": "S",
@@ -190,9 +190,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -200,9 +200,9 @@ export const mens_kurta=[
         "brand": "Manthan",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Blue",
-        "discountedPrice": 765,
+       "discountedPrice": 765,
         "price": 1049,
-        "discountPersent": 27,
+        "discountedPercent": 27,
         "size": [
             {
               "name": "S",
@@ -218,9 +218,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -228,9 +228,9 @@ export const mens_kurta=[
         "brand": "RAHUL LOOK",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Green",
-        "discountedPrice": 499,
+       "discountedPrice": 499,
         "price": 1599,
-        "discountPersent": 68,
+        "discountedPercent": 68,
         "size": [
             {
               "name": "S",
@@ -246,9 +246,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -256,9 +256,9 @@ export const mens_kurta=[
         "brand": "FRELURO",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Yellow",
-        "discountedPrice": 429,
+       "discountedPrice": 429,
         "price": 999,        
-        "discountPersent": 57,
+        "discountedPercent": 57,
         "size": [
             {
               "name": "S",
@@ -274,9 +274,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -284,9 +284,9 @@ export const mens_kurta=[
         "brand": "Manthan",
         "title": "Men Self Design Cotton Blend Straight Kurta",
         "color": "Light Blue",
-        "discountedPrice": 729,
+       "discountedPrice": 729,
         "price": 909,        
-        "discountPersent": 27,
+        "discountedPercent": 27,
         "size": [
             {
               "name": "S",
@@ -302,9 +302,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -312,9 +312,9 @@ export const mens_kurta=[
         "brand": "allan peter",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Green",
-        "discountedPrice": 449,
+       "discountedPrice": 449,
         "price": 1749,
-        "discountPersent": 74,
+        "discountedPercent": 74,
         "size": [
             {
               "name": "S",
@@ -330,9 +330,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -340,9 +340,9 @@ export const mens_kurta=[
         "brand": "COMBRAIDED",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Dark Blue",
-        "discountedPrice": 449,
+       "discountedPrice": 449,
         "price": 1499,
-        "discountPersent": 70,
+        "discountedPercent": 70,
         "size": [
             {
               "name": "S",
@@ -358,9 +358,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -368,9 +368,9 @@ export const mens_kurta=[
         "brand": "FOLGEN",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Yellow",
-        "discountedPrice": 385,
+       "discountedPrice": 385,
         "price": 1299,
-        "discountPersent": 70,
+        "discountedPercent": 70,
         "size": [
             {
               "name": "S",
@@ -386,9 +386,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -396,9 +396,9 @@ export const mens_kurta=[
         "brand": "Tap in",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Orange",
-        "discountedPrice": 395,
+       "discountedPrice": 395,
         "price": 1495,
-        "discountPersent": 73,
+        "discountedPercent": 73,
         "size": [
             {
               "name": "S",
@@ -414,9 +414,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -424,9 +424,9 @@ export const mens_kurta=[
         "brand": "FUBAR",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Dark Blue",
-        "discountedPrice": 399,
+       "discountedPrice": 399,
         "price": 1648,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -442,9 +442,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -452,9 +452,9 @@ export const mens_kurta=[
         "brand": "Vida Loca",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "White",
-        "discountedPrice": 599,
+       "discountedPrice": 599,
         "price": 2499,
-        "discountPersent": 76,
+        "discountedPercent": 76,
         "size": [
             {
               "name": "S",
@@ -470,9 +470,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -480,9 +480,9 @@ export const mens_kurta=[
         "brand": "Vida Loca",
         "title": "Men Self Design Pure Cotton Straight Kurta",
         "color": "White",
-        "discountedPrice": 629,
+       "discountedPrice": 629,
         "price": 2499,
-        "discountPersent": 74,
+        "discountedPercent": 74,
         "size": [
             {
               "name": "S",
@@ -498,9 +498,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -508,9 +508,9 @@ export const mens_kurta=[
         "brand": "Nofilter",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "White",
-        "discountedPrice": 370,
+       "discountedPrice": 370,
         "price": 1499,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -526,9 +526,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -536,9 +536,9 @@ export const mens_kurta=[
         "brand": "KSH Trendz",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Yellow",
-        "discountedPrice": 363,
+       "discountedPrice": 363,
         "price": 1499,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -554,9 +554,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -564,9 +564,9 @@ export const mens_kurta=[
         "brand": "Vida Loca",
         "title": "Men Self Design Pure Cotton Straight Kurta",
         "color": "Beige",
-        "discountedPrice": 629,
+       "discountedPrice": 629,
         "price": 2499,
-        "discountPersent": 74,
+        "discountedPercent": 74,
         "size": [
             {
               "name": "S",
@@ -582,9 +582,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -592,9 +592,9 @@ export const mens_kurta=[
         "brand": "Vida Loca",
         "title": "Men Self Design Pure Cotton Straight Kurta",
         "color": "Light Blue",
-        "discountedPrice": 629,
+       "discountedPrice": 629,
         "price": 2499,
-        "discountPersent": 74,
+        "discountedPercent": 74,
         "size": [
             {
               "name": "S",
@@ -610,9 +610,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -620,9 +620,9 @@ export const mens_kurta=[
         "brand": "FUBAR",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Purple",
-        "discountedPrice": 399,
+       "discountedPrice": 399,
         "price": 1648,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -638,9 +638,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -648,9 +648,9 @@ export const mens_kurta=[
         "brand": "Majestic Man",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Pink",
-        "discountedPrice": 499,
+       "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
+        "discountedPercent": 66,
         "size": [
             {
               "name": "S",
@@ -666,9 +666,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -676,9 +676,9 @@ export const mens_kurta=[
         "brand": "KSH Trendz",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Yellow",
-        "discountedPrice": 265,
+       "discountedPrice": 265,
         "price": 1499,
-        "discountPersent": 82,
+        "discountedPercent": 82,
         "size": [
             {
               "name": "S",
@@ -694,9 +694,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -704,9 +704,9 @@ export const mens_kurta=[
         "brand": "ARMAAN ETHNIC",
         "title": "Men Self Design Cotton Blend Straight Kurta",
         "color": "Blue",
-        "discountedPrice": 483,
+       "discountedPrice": 483,
         "price": 1999,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -722,9 +722,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -732,9 +732,9 @@ export const mens_kurta=[
         "brand": "Majestic Man",
         "title": "Men Printed Pure Cotton Straight Kurta",
         "color": "Light Green",
-        "discountedPrice": 499,
+       "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
+        "discountedPercent": 66,
         "size": [
             {
               "name": "S",
@@ -750,9 +750,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -760,9 +760,9 @@ export const mens_kurta=[
         "brand": "Majestic Man",
         "title": "Men Printed Pure Cotton Straight Kurta",
         "color": "Orange",
-        "discountedPrice": 499,
+       "discountedPrice": 499,
         "price": 1499,
-        "discountPersent": 66,
+        "discountedPercent": 66,
         "size": [
             {
               "name": "S",
@@ -778,9 +778,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -788,9 +788,9 @@ export const mens_kurta=[
         "brand": "FUBAR",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Maroon",
-        "discountedPrice": 399,
+       "discountedPrice": 399,
         "price": 1648,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -806,9 +806,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -816,9 +816,9 @@ export const mens_kurta=[
         "brand": "allan peter",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Pink",
-        "discountedPrice": 449,
+       "discountedPrice": 449,
         "price": 1749,
-        "discountPersent": 74,
+        "discountedPercent": 74,
         "size": [
             {
               "name": "S",
@@ -834,9 +834,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -844,9 +844,9 @@ export const mens_kurta=[
         "brand": "DEEMOON",
         "title": "Men Floral Print Cotton Blend Straight Kurta",
         "color": "Dark Blue",
-        "discountedPrice": 468,
+       "discountedPrice": 468,
         "price": 1599,
-        "discountPersent": 70,
+        "discountedPercent": 70,
         "size": [
             {
               "name": "S",
@@ -862,9 +862,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -872,9 +872,9 @@ export const mens_kurta=[
         "brand": "allan peter",
         "title": "Men Printed Pure Cotton Straight Kurta",
         "color": "Dark Blue",
-        "discountedPrice": 499,
+       "discountedPrice": 499,
         "price": 1749,
-        "discountPersent": 71,
+        "discountedPercent": 71,
         "size": [
             {
               "name": "S",
@@ -890,9 +890,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -900,9 +900,9 @@ export const mens_kurta=[
         "brand": "More & More",
         "title": "Men Self Design Cotton Blend Straight Kurta",
         "color": "Yellow",
-        "discountedPrice": 467,
+       "discountedPrice": 467,
         "price": 2199,
-        "discountPersent": 78,
+        "discountedPercent": 78,
         "size": [
             {
               "name": "S",
@@ -918,9 +918,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -928,9 +928,9 @@ export const mens_kurta=[
         "brand": "SG LEMAN",
         "title": "Men Printed Pure Silk Straight Kurta",
         "color": "Gold",
-        "discountedPrice": 810,
+       "discountedPrice": 810,
         "price": 2499,
-        "discountPersent": 67,
+        "discountedPercent": 67,
         "size": [
             {
               "name": "S",
@@ -946,9 +946,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -956,9 +956,9 @@ export const mens_kurta=[
         "brand": "ALY JOHN",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Maroon",
-        "discountedPrice": 478,
+       "discountedPrice": 478,
         "price": 1279,
-        "discountPersent": 62,
+        "discountedPercent": 62,
         "size": [
             {
               "name": "S",
@@ -974,9 +974,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -984,9 +984,9 @@ export const mens_kurta=[
         "brand": "FUBAR",
         "title": "Men Striped Cotton Blend Straight Kurta",
         "color": "Black",
-        "discountedPrice": 399,
+       "discountedPrice": 399,
         "price": 1648,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -1002,9 +1002,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -1012,9 +1012,9 @@ export const mens_kurta=[
         "brand": "Manthan",
         "title": "Men Printed Cotton Blend Ethnic Dress",
         "color": "Orange",
-        "discountedPrice": 948,
+       "discountedPrice": 948,
         "price": 1299,
-        "discountPersent": 27,
+        "discountedPercent": 27,
         "size": [
             {
               "name": "S",
@@ -1030,9 +1030,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -1040,9 +1040,9 @@ export const mens_kurta=[
         "brand": "Vida Loca",
         "title": "Pack of 2 Men Solid Pure Cotton Straight Kurta",
         "color": "Multicolor",
-        "discountedPrice": 994,
+       "discountedPrice": 994,
         "price": 2499,
-        "discountPersent": 60,
+        "discountedPercent": 60,
         "size": [
             {
               "name": "S",
@@ -1058,9 +1058,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -1068,9 +1068,9 @@ export const mens_kurta=[
         "brand": "SPOQUE",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Pink",
-        "discountedPrice": 362,
+       "discountedPrice": 362,
         "price": 1499,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -1086,9 +1086,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     },
     {
@@ -1096,9 +1096,9 @@ export const mens_kurta=[
         "brand": "Nofilter",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "White",
-        "discountedPrice": 393,
+       "discountedPrice": 393,
         "price": 1599,
-        "discountPersent": 75,
+        "discountedPercent": 75,
         "size": [
             {
               "name": "S",
@@ -1114,9 +1114,9 @@ export const mens_kurta=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "Men",
-          "secondLavelCategory": "Clothing",
-          "thirdLavelCategory": "mens_kurta",
+         "topLevelCategory": "Men",
+          "secondLevelCategory": "Clothing",
+          "thirdLevelCategory": "mens_kurta",
           "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
     }
 ]

@@ -6,6 +6,7 @@ import { FormBuilder, FormGroup, Validators, FormsModule, ReactiveFormsModule } 
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDividerModule} from '@angular/material/divider';
+import { OrderService } from '../../../../../state/orders/orders.service';
 
 @Component({
   selector: 'app-address-form',
@@ -25,7 +26,10 @@ import {MatDividerModule} from '@angular/material/divider';
 export class AddressFormComponent {
   
 
-  constructor(private formBuilder:FormBuilder){
+  constructor(
+    private formBuilder:FormBuilder,
+    private orderService:OrderService,
+    ){
   
   }
 
@@ -47,7 +51,8 @@ export class AddressFormComponent {
 
   handleSubmit() {
     const formValues = this.myForm.value
-    console.log("Data " ,formValues)
+    this.orderService.createOrder(formValues)
+    // console.log("Data " ,formValues)
   }
 
 

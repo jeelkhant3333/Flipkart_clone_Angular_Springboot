@@ -10,7 +10,9 @@ import { ShareModule } from './module/share/share.module';
 import { StoreModule } from '@ngrx/store';
 import { authReducer } from './state/auth/auth.reducers';
 import { userReducer } from './state/user/user.reducer';
-import { combineReducers } from '@ngrx/store';
+import { productReducer } from './state/product/product.reducer';
+import { cartReducer } from './state/cart/cart.reducer';
+import { orderReducer } from './state/orders/orders.reducer';
 
 @NgModule({
   declarations: [],
@@ -26,7 +28,10 @@ import { combineReducers } from '@ngrx/store';
     ShareModule,
     StoreModule.forRoot({
       auth: authReducer,
-      user: userReducer
+      user: userReducer,
+      product: productReducer,
+      cart: cartReducer,
+      order: orderReducer,
     }),
   ],
 })
