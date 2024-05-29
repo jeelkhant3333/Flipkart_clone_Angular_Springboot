@@ -23,7 +23,7 @@
 
         </div>
 
-        <div class="col-span-3 scroll-py-5">
+        <!-- <div class="col-span-3 scroll-py-5">
 
             <div class="space-y-5" *ngFor="let item of orders">
 
@@ -35,8 +35,16 @@
 
             </div>
 
-        </div>
+        </div> -->
 
+        <div class="col-span-3 scroll-py-5 ">
+            <div class="space-y-5" *ngFor="let order of orders">
+                <div (click)="navigateToOrderDetails(order.id)">
+                    <app-order-card [orderItems]="order"></app-order-card>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
 </div>

@@ -13,6 +13,7 @@ import { CartEffect } from './state/cart/cart.effect';
 import { authReducer } from './state/auth/auth.reducers';
 import { userReducer } from './state/user/user.reducer';
 import { productReducer } from './state/product/product.reducer';
+import { orderReducer } from './state/orders/orders.reducer';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -20,7 +21,7 @@ export const appConfig: ApplicationConfig = {
     provideClientHydration(), 
     provideAnimationsAsync(), 
     provideStore(
-      {'cart':cartReducer,'auth':authReducer,'user':userReducer,'product':productReducer}
+      {'cart':cartReducer,'auth':authReducer,'user':userReducer,'product':productReducer,'order':orderReducer}
       ), 
     provideHttpClient(withFetch()), 
     provideStoreDevtools({ maxAge: false, logOnly: !isDevMode() }), 

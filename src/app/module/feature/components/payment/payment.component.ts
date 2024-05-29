@@ -5,6 +5,10 @@ import { CartItemComponent } from "../../../share/components/cart-item/cart-item
 import {MatDividerModule} from '@angular/material/divider';
 import { ActivatedRoute } from '@angular/router';
 import { OrderService } from '../../../../state/orders/orders.service';
+import { Store } from '@ngrx/store';
+import { OrderState } from '../../../../state/orders/orders.reducer';
+import { OrderCardComponent } from "../order/order-card/order-card.component";
+import { PaymentCardComponent } from "./payment-card/payment-card.component";
 
 @Component({
     selector: 'app-payment',
@@ -16,6 +20,8 @@ import { OrderService } from '../../../../state/orders/orders.service';
         CommonModule,
         CartItemComponent,
         MatDividerModule,
+        OrderCardComponent,
+        PaymentCardComponent
     ]
 })
 export class PaymentComponent {
@@ -23,20 +29,21 @@ products:any
 
 constructor(
     private activatedRoute : ActivatedRoute,
-    private orderService : OrderService
+    private orderService : OrderService,
+    private store : Store<OrderState>
 ){}
 
 ngOnInit(){
     let id = this.activatedRoute.snapshot.paramMap.get("id")
-    console.log("id" , id);
+    // console.log("id" , id);
     if(id){
-        this.orderService.getOrderById(id).subscribe((response)=>{
-            // console.log("response",response);
-            this.products = response
-            
-        });
+        this.orderService.getOrderById(id)
     }
-   
+
+
+    this.store.select('order').subscribe((res)=>{
+        this.products = res.order
+    })
     
 }
 

@@ -34,6 +34,7 @@ export class AddressFormComponent {
   }
 
   addresses = [1, 1, 1,1,1,1]
+
   myForm: FormGroup=this.formBuilder.group({
     firstName:["" , Validators.required],
     lastName:["" , Validators.required],
@@ -50,9 +51,12 @@ export class AddressFormComponent {
   }
 
   handleSubmit() {
-    const formValues = this.myForm.value
-    this.orderService.createOrder(formValues)
-    // console.log("Data " ,formValues)
+    if(this.myForm.valid){
+      const formValues = this.myForm.value
+      this.orderService.createOrder(formValues)
+    }else{
+      alert('Please Fill Details')
+    }
   }
 
 
