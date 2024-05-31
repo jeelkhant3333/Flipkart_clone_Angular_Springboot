@@ -9,6 +9,7 @@ import { Store } from '@ngrx/store';
 import { OrderState } from '../../../../state/orders/orders.reducer';
 import { OrderCardComponent } from "../order/order-card/order-card.component";
 import { PaymentCardComponent } from "./payment-card/payment-card.component";
+import { PaymentService } from '../../../../state/payment/payment.service';
 
 @Component({
     selector: 'app-payment',
@@ -25,12 +26,14 @@ import { PaymentCardComponent } from "./payment-card/payment-card.component";
     ]
 })
 export class PaymentComponent {
+
 products:any
 
 constructor(
     private activatedRoute : ActivatedRoute,
     private orderService : OrderService,
-    private store : Store<OrderState>
+    private store : Store<OrderState>,
+    private paymentService : PaymentService
 ){}
 
 ngOnInit(){
@@ -42,9 +45,17 @@ ngOnInit(){
 
 
     this.store.select('order').subscribe((res)=>{
+        console.log("order" , res.order)
         this.products = res.order
     })
     
 }
+
+navigetToPayment() {
+    console.log("go to payment");
+    
+    this.paymentService.createPayment(this.products.id)
+   
+    }
 
 }

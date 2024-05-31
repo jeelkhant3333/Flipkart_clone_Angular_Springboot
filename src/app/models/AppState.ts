@@ -13,6 +13,7 @@ export interface AppState{
 
 export interface UserState{
     user:any,
+    address:any[]
     loading: boolean,
     error: string
 }

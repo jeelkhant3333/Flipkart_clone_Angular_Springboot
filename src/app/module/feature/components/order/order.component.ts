@@ -41,6 +41,7 @@ orders: any[] = [];
     this.store.select("order").subscribe((res)=>{
       console.log("order history res" , res.orders)
       this.orders = res.orders
+      this.orders = this.orders.slice().reverse()
     })
 
   }

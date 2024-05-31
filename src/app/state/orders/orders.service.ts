@@ -27,6 +27,8 @@ export class OrderService {
     }
 
     createOrder(reqData: any) {
+        console.log("order req" , reqData);
+        
         const url = `${this.API_BASE_URL}/api/orders/`;
         return this.http.post(url, reqData, { headers: this.headers })
             .pipe(

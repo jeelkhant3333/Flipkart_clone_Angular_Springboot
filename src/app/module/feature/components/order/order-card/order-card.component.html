@@ -1,25 +1,38 @@
-<div class="container mx-auto p-4">
-    <div class="bg-white shadow-md p-6">
-        <h1 class="text-2xl font-bold mb-4 text-center">Order Summary</h1>
-        <div class="flex justify-around">
-            <div class="mb-4">
-                <h2 class="text-lg font-semibold">Order Address</h2>
-                <p class="textGray">{{ orderItems.shippingAddress.firstName }} {{ orderItems.shippingAddress.lastName }}</p>
-                <p class="textGray" *ngIf="orderItems.shippingAddress.streetAddress">{{ orderItems.shippingAddress.streetAddress}}</p>
-                <p class="textGray">{{ orderItems.shippingAddress.city }}, {{ orderItems.shippingAddress.state }} {{
-                    orderItems.shippingAddress.zipCode }}</p>
-                <p class="textGray">Mobile: {{ orderItems.shippingAddress.mobile }}</p>
-            </div>
+<div class="box bg-white"> 
 
-            <div class="mb-4">
-                <h2 class="text-lg font-semibold">orderItems Details</h2>
-                <p class="textGray">Order Date: {{ orderItems.orderDate }}</p>
-                <p class="textGray">Delivery Date: {{ orderItems.deliveryDate }}</p>
-                <p class="textGray">Total Price: ₹{{ orderItems.totalDiscountedPrice }}</p>
-                <p class="textGray">Order Status: {{ orderItems.orderStatus }}</p>
-                <p class="textGray">Total Items: {{ orderItems.totalItem }}</p>
-            </div>
+    <div class="grid grid-cols-6 py-3 justify-between m-2">
+
+        <div class="col-span-3 pl-5">
+
+            <div class="flex w-full items-center">
+    
+                <div class="ml-5 justify-between">
+    
+                     <p class="font-medium text-lg">Total Items : {{orderItems.totalItem}}</p>
+                     <p class="font-medium text-lg">Paid Amount : ₹{{orderItems.totalDiscountedPrice}}</p>
+    
+                </div>
+    
+            </div> 
 
         </div>
+
+        <div class="col-span-1">
+
+            <p class="font-medium text-lg">Total Price : ₹{{orderItems.totalPrice}}</p>
+            <p class="font-medium text-lg">Discount : ₹{{orderItems.discount}}</p>
+          
+            
+        </div>
+
+        <div class="col-span-2 pr-5">
+
+            <p class="font-medium text-lg">{{orderItems.shippingAddress.firstName+ ' ' +orderItems.shippingAddress.lastName}}</p>
+            <p class="font-medium text-lg">{{orderItems.shippingAddress.mobile}}</p>
+            <p class="font-medium text-lg">{{orderItems.shippingAddress.streetAddress}}</p>
+
+        </div>
+
     </div>
+
 </div>
